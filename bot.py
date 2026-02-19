@@ -7,7 +7,7 @@ from telegram.ext import ApplicationBuilder, ContextTypes, MessageHandler, filte
 TOKEN = os.getenv("BOT_TOKEN")
 ADMIN_ID = int(os.getenv("ADMIN_ID"))
 
-INACTIVITY_DAYS = 7
+INACTIVITY_DAYS = 0.01
 WARNING_HOURS = 24
 
 groups_data = {}
